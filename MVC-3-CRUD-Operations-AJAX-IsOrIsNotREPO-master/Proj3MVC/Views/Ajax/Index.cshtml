@@ -1,0 +1,68 @@
+﻿@*Drap and dropped script files*@
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/js/doc.js"></script>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" id="btn1">
+    Add Emp
+</button>
+<br/> <br/>
+
+<input type="text" id="Search" />
+<input type="button" value="Search" onclick="SearchEmpData()" />
+<br />
+<br />
+
+<!--Gridview in .net core-->
+<table class="table table-bordered table-hover">
+    <thead class="table-dark">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Dept</th>
+            <th>Salary</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody id="tabledata">
+    </tbody>
+</table>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"></h5>
+                <button type="button" class="close" id="closebtn" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form method="post" id="myform">
+                    <div class="form-group" id="Id">
+                        <label for="exampleInputPassword1">Id</label>
+                        <input type="text" name="Id" class="form-control" id="eid" placeholder="Enter your Id">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Name</label>
+                        <input type="text" name="Name" class="form-control" id="Name" placeholder="Enter your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Dept</label>
+                        <input type="text" name="Dept" class="form-control" id="Dept" placeholder="Enter your Email ID">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Salary</label>
+                        <input type="text" name="Salary" class="form-control" id="Salary" placeholder="Enter your current Salary">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="savebtn" class="btn btn-primary">Save</button>
+                <button type="button" id="updbtn" class="btn btn-primary">Update</button>
+            </div>
+        </div>
+    </div>
+</div>

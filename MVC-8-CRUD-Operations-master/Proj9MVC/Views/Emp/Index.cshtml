@@ -1,0 +1,31 @@
+﻿@using Proj9MVCWebApiConsuming.Models;
+
+@model List<Emp>
+
+<a asp-controller="Emp" asp-action="AddEmp"class="btn btn-info">Add Employee</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Dept</th>
+            <th scope="col">Salary</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var d in Model)
+        {
+        <tr>
+            <th scope="row">@d.id</th>
+            <td>@d.name</td>
+            <td>@d.dept</td>
+            <td>@d.salary</td>
+                <td><a asp-controller="Emp" asp-action="DelEmp" asp-route-id="@d.id" class="btn btn-danger">Delete</a>     <a asp-controller="Emp" asp-action="EditEmp" asp-route-id="@d.id" class="btn btn-danger">Edit</a></td>
+        </tr>
+        }
+    </tbody>
+</table>
+
+

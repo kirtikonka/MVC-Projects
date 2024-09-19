@@ -1,0 +1,7 @@
+﻿SSL Certification
+
+HttpClientHandler clientHandler=new HttpClientHandler();
+clientHandler.ServersCertificateCustomValidationCallback=(sender,cert,chain,sslPloicyErrors)=>{return true;};
+
+Tools - Convert json data to object
+Newtonsoft.json

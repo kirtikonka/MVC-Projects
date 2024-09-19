@@ -1,0 +1,60 @@
+﻿DB First approach
+
+--[in console]--
+Scaffold-DbContext "Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=eCommerce;Integrated Security=True;Encrypt=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+--[packages]--
+Microsoft.EntityFrameworkCore
+Microsoft.EntityFrameworkCore.SqlServer
+Microsoft.EntityFrameworkCore.Tools
+
+--------------------------------------------------------------
+--------------------------------------------------------------
+
+Steps to Pass Cookies authentication
+--[Step 1]--
+//In Program.cs
+
+builder.Services.AddAuthentication(CookiesAuthenticationDefaults.AuthenticationScheme).AddCookie(option => {
+	option.ExpireTimeSpan=TimeSpan.FromMinutes(60);
+	option.LoginPath="/Account/Signin";	
+	option.AccessDeniedPath="/Account/Signin";
+});
+
+--[Step 2]--
+//Middleware
+
+app.UseAuthentication();
+app.UseAuthorization();
+
+--[Step 3]--
+//Passing the claims
+
+var identity =  new ClaimsIdentit(new[]{new Claim(ClaimTypes.Name, model.Username)},CookieAuthenticationDefaults.AuthenticationScheme);
+var principal = new ClaimsPrincipal (identity);
+HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
+HttpContext.Session.SetString("Username",model.Username);
+
+--[Step 4]--
+//Signout logout
+
+HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+var storedcookies = Request.Cookies.Keys;
+foreach(var cookie in storedcookies)
+{
+	Response.Cookies.Delete(cookie);
+}
+
+--[Step 5]--
+//Check user is authenticated or not
+
+User.Identity.IsAuthenticated
+
+--[Step 6]--
+//Access he claims
+
+User.Identity.Name
+
+--------------------------------------------------------------
+--------------------------------------------------------------
+

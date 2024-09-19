@@ -1,0 +1,97 @@
+﻿@model Emp
+
+<form method="post">
+    <div asp-validation-summary="All"></div>
+    <div class="form-group">
+        <label for="exampleInputPassword1">ID</label>
+        <input type="text" asp-for="Id" class="form-control" id="exampleInputPassword1" placeholder="ID">
+        <span asp-validation-for="Id" class="text-danger"></span>
+    </div>
+    <br />
+    <div class="form-group">
+        <label for="exampleInputPassword1">Name</label>
+        <input type="text" asp-for="Name" class="form-control" id="exampleInputPassword1" placeholder="Name">
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <br />
+    <div class="form-group">
+        <label for="exampleInputPassword1">Salary</label>
+        <input type="text" asp-for="Salary" class="form-control" id="exampleInputPassword1" placeholder="Salary">
+        <span asp-validation-for="Salary" class="text-danger"></span>
+    </div>
+    <br />
+    <div class="form-group">
+        <label for="exampleInputPassword1">Email</label>
+        <input type="text" asp-for="Email" class="form-control" id="exampleInputPassword1" placeholder="Email Address">
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <br />
+    <div class="form-group">
+        <label for="exampleInputPassword1">Contact</label>
+        <input type="text" asp-for="Contact" class="form-control" id="exampleInputPassword1" placeholder="Contact Number">
+        <span asp-validation-for="Contact" class="text-danger"></span>
+    </div>
+    <br />
+    <div class="form-group">
+        <label for="exampleInputPassword1">Pan Card</label>
+        <input type="text" asp-for="PanCard" class="form-control" id="exampleInputPassword1" placeholder="Pan Card">
+        <span asp-validation-for="PanCard" class="text-danger"></span>
+    </div>
+    <br />
+    <div class="form-group">
+        <label for="exampleInputPassword1">Enter URL</label>
+        <input type="text" asp-for="Url" class="form-control" id="exampleInputPassword1" placeholder="Any URL">
+        <span asp-validation-for="Url" class="text-danger"></span>
+    </div>
+    <br />
+    <div class="form-group">
+        <label for="exampleInputPassword1">Enter your Credit Card Details</label>
+        <input type="text" asp-for="Credit" class="form-control" id="exampleInputPassword1" placeholder="Credit Card">
+        <span asp-validation-for="Credit" class="text-danger"></span>
+    </div>
+    <br />
+@*     
+    <div class="form-group">
+        <label for="exampleInputPassword1">Enter a Website URL</label>
+        <input type="text" asp-for="Website" class="form-control" id="exampleInputPassword1" placeholder="Website URL">
+        <span asp-validation-for="Website" class="text-danger"></span>
+    </div>
+    <br />
+    <div class="form-group">
+        <label for="exampleInputPassword1">Enter Youtube URL</label>
+        <input type="text" asp-for="YouTubeVideo" class="form-control" id="exampleInputPassword1" placeholder="Youtube URL">
+        <span asp-validation-for="YouTubeVideo" class="text-danger"></span>
+    </div>
+ *@    
+ <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<br />
+@if(Model!=null)
+{
+    @Model.Id
+    <br/>
+    @Model.Name
+    <br/>
+    @Model.Salary
+    <br />
+    @Model.Email
+    <br />
+    @Model.Contact
+    <br />
+    @Model.PanCard
+    <br/>
+    @Model.Url
+    <br/>
+    @Model.Credit
+@*     
+    <br/>
+    @Model.Website
+    <br/>
+    @Model.YouTubeVideo
+ *@
+}
+
+@section scripts{
+    <partial name="_ValidationScriptsPartial"></partial>
+}

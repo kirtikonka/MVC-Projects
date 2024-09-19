@@ -1,0 +1,64 @@
+﻿@* <h1>Hi Kirti</h1>
+
+@Model.Id <br/>
+
+@Model.Name <br/>
+
+@Model.Salary *@
+
+
+@* @foreach(var d in Model)
+{
+    @d.Id <br/>
+    @d.Name <br/>
+    @d.Salary <br/>
+} *@
+
+@* @model List<Emp,Manager> *@
+
+@model Combined
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Salary</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var d in Model.Employees)
+        {
+        <tr>       
+            <th scope="row"> @d.Id</th>
+            <td>@d.Name </td>
+            <td>@d.Salary</td>
+            <td><a asp-controller="Emp" asp-action="DeleteEmp" asp-route-id="@d.Id"><input type="button" class="btn btn-danger" value="Delete"/></a></td>
+            <td><a asp-controller="Emp" asp-action="UpdateEmp" asp-route-id="@d.Id"><input type="button" class="btn btn-success" value="Edit" /></a></td>
+
+        </tr>
+        }
+    </tbody> 
+</table>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">MID</th>
+            <th scope="col">ManagerName</th>
+            <th scope="col">ManagerSalary</th>
+        </tr>
+    </thead>
+    <tbody>
+        @*this is for Method 2 *@
+        @foreach (var m in Model.Manager) @* instead of Model.Manager we use (var m in (List<Emp>ViewData["mydata"])) for Method 1*@
+        {
+            <tr>
+                <th scope="row"> @m.MId</th>
+                <td>@m.ManagerName </td>
+                <td>@m.ManagerSalary</td>
+            </tr>
+        }
+    </tbody>
+</table>

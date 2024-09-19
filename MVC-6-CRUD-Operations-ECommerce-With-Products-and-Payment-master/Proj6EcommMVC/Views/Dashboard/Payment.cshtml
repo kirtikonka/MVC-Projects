@@ -1,0 +1,36 @@
+﻿@model List<Payment>
+
+
+<div class="card">
+    <div class="card-body mx-4">
+        <div class="container">
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Image</th>
+            <th scope="col">Product Name</th>
+            <th scope="col">Category</th>
+            <th scope="col">Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            @foreach (var d in Model)
+            {
+            <th scope="row">@d.Picture</th>
+            <td>@d.Pname</td>
+            <td>@d.Pcat</td>
+            <td>@d.Price</td>
+            }
+        </tr>
+    </tbody>
+</table>
+@foreach (var d in Model)
+            {
+             <div class="card-body">
+                <a asp-controller="Dashboard" asp-action="PayNow" asp-route-id="@d.pid" class="btn btn-info">Pay Now</a>
+             </div>
+            }
+    </div>
+</div>
+</div>

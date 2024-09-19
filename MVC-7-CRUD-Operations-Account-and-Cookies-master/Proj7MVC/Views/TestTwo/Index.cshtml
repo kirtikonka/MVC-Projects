@@ -1,0 +1,27 @@
+﻿@model List<TestTwo>
+
+<a asp-controller="TestTwo" asp-action="AddTest"><input type="button" value="Add Employee" class="btn btn-primary" /></a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Department</th>
+            <th scope="col">Salary</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            @foreach(var d in Model)
+            {
+            <th scope="row">@d.Id</th>
+            <td>@d.Name</td>
+            <td>@d.Department</td>
+            <td>@d.Salary</td>
+            <td><a asp-action="Edit" asp-controller="TestTwo" asp-route-id="@d.Id"><input type="button" value="Edit"/></a></td>
+            }
+        </tr>
+    </tbody>
+</table>

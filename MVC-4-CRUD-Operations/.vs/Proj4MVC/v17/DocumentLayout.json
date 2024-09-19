@@ -1,0 +1,170 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kirti\\source\\repos\\Proj4MVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D66B5384-0CD3-4A62-AE1A-668546C22C3C}|Proj4MVC\\Proj4MVC.csproj|c:\\users\\kirti\\source\\repos\\proj4mvc\\proj4mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D66B5384-0CD3-4A62-AE1A-668546C22C3C}|Proj4MVC\\Proj4MVC.csproj|solutionrelative:proj4mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D66B5384-0CD3-4A62-AE1A-668546C22C3C}|Proj4MVC\\Proj4MVC.csproj|c:\\users\\kirti\\source\\repos\\proj4mvc\\proj4mvc\\views\\departments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D66B5384-0CD3-4A62-AE1A-668546C22C3C}|Proj4MVC\\Proj4MVC.csproj|solutionrelative:proj4mvc\\views\\departments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D66B5384-0CD3-4A62-AE1A-668546C22C3C}|Proj4MVC\\Proj4MVC.csproj|c:\\users\\kirti\\source\\repos\\proj4mvc\\proj4mvc\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D66B5384-0CD3-4A62-AE1A-668546C22C3C}|Proj4MVC\\Proj4MVC.csproj|solutionrelative:proj4mvc\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D66B5384-0CD3-4A62-AE1A-668546C22C3C}|Proj4MVC\\Proj4MVC.csproj|c:\\users\\kirti\\source\\repos\\proj4mvc\\proj4mvc\\implementations\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D66B5384-0CD3-4A62-AE1A-668546C22C3C}|Proj4MVC\\Proj4MVC.csproj|solutionrelative:proj4mvc\\implementations\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D66B5384-0CD3-4A62-AE1A-668546C22C3C}|Proj4MVC\\Proj4MVC.csproj|c:\\users\\kirti\\source\\repos\\proj4mvc\\proj4mvc\\viewmodels\\departments\\departmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D66B5384-0CD3-4A62-AE1A-668546C22C3C}|Proj4MVC\\Proj4MVC.csproj|solutionrelative:proj4mvc\\viewmodels\\departments\\departmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D66B5384-0CD3-4A62-AE1A-668546C22C3C}|Proj4MVC\\Proj4MVC.csproj|c:\\users\\kirti\\source\\repos\\proj4mvc\\proj4mvc\\interfaces\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D66B5384-0CD3-4A62-AE1A-668546C22C3C}|Proj4MVC\\Proj4MVC.csproj|solutionrelative:proj4mvc\\interfaces\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D66B5384-0CD3-4A62-AE1A-668546C22C3C}|Proj4MVC\\Proj4MVC.csproj|c:\\users\\kirti\\source\\repos\\proj4mvc\\proj4mvc\\implementations\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D66B5384-0CD3-4A62-AE1A-668546C22C3C}|Proj4MVC\\Proj4MVC.csproj|solutionrelative:proj4mvc\\implementations\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D66B5384-0CD3-4A62-AE1A-668546C22C3C}|Proj4MVC\\Proj4MVC.csproj|c:\\users\\kirti\\source\\repos\\proj4mvc\\proj4mvc\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D66B5384-0CD3-4A62-AE1A-668546C22C3C}|Proj4MVC\\Proj4MVC.csproj|solutionrelative:proj4mvc\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kirti\\source\\repos\\Proj4MVC\\Proj4MVC\\Views\\Departments\\Index.cshtml",
+              "RelativeDocumentMoniker": "Proj4MVC\\Views\\Departments\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kirti\\source\\repos\\Proj4MVC\\Proj4MVC\\Views\\Departments\\Index.cshtml",
+              "RelativeToolTip": "Proj4MVC\\Views\\Departments\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-15T19:04:27.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DepartmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\kirti\\source\\repos\\Proj4MVC\\Proj4MVC\\Controllers\\DepartmentsController.cs",
+              "RelativeDocumentMoniker": "Proj4MVC\\Controllers\\DepartmentsController.cs",
+              "ToolTip": "C:\\Users\\kirti\\source\\repos\\Proj4MVC\\Proj4MVC\\Controllers\\DepartmentsController.cs",
+              "RelativeToolTip": "Proj4MVC\\Controllers\\DepartmentsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T18:27:56.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kirti\\source\\repos\\Proj4MVC\\Proj4MVC\\Program.cs",
+              "RelativeDocumentMoniker": "Proj4MVC\\Program.cs",
+              "ToolTip": "C:\\Users\\kirti\\source\\repos\\Proj4MVC\\Proj4MVC\\Program.cs",
+              "RelativeToolTip": "Proj4MVC\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T18:38:08.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DepartmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kirti\\source\\repos\\Proj4MVC\\Proj4MVC\\Implementations\\DepartmentRepository.cs",
+              "RelativeDocumentMoniker": "Proj4MVC\\Implementations\\DepartmentRepository.cs",
+              "ToolTip": "C:\\Users\\kirti\\source\\repos\\Proj4MVC\\Proj4MVC\\Implementations\\DepartmentRepository.cs",
+              "RelativeToolTip": "Proj4MVC\\Implementations\\DepartmentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T18:29:59.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DepartmentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\kirti\\source\\repos\\Proj4MVC\\Proj4MVC\\ViewModels\\Departments\\DepartmentViewModel.cs",
+              "RelativeDocumentMoniker": "Proj4MVC\\ViewModels\\Departments\\DepartmentViewModel.cs",
+              "ToolTip": "C:\\Users\\kirti\\source\\repos\\Proj4MVC\\Proj4MVC\\ViewModels\\Departments\\DepartmentViewModel.cs",
+              "RelativeToolTip": "Proj4MVC\\ViewModels\\Departments\\DepartmentViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T18:48:04.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IDepartmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kirti\\source\\repos\\Proj4MVC\\Proj4MVC\\Interfaces\\IDepartmentRepository.cs",
+              "RelativeDocumentMoniker": "Proj4MVC\\Interfaces\\IDepartmentRepository.cs",
+              "ToolTip": "C:\\Users\\kirti\\source\\repos\\Proj4MVC\\Proj4MVC\\Interfaces\\IDepartmentRepository.cs",
+              "RelativeToolTip": "Proj4MVC\\Interfaces\\IDepartmentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T18:28:29.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\kirti\\source\\repos\\Proj4MVC\\Proj4MVC\\Implementations\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Proj4MVC\\Implementations\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\kirti\\source\\repos\\Proj4MVC\\Proj4MVC\\Implementations\\UnitOfWork.cs",
+              "RelativeToolTip": "Proj4MVC\\Implementations\\UnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T18:35:46.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\kirti\\source\\repos\\Proj4MVC\\Proj4MVC\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Proj4MVC\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\kirti\\source\\repos\\Proj4MVC\\Proj4MVC\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "Proj4MVC\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T18:34:43.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+﻿@model List<Cart>
+
+<div class="d-flex">
+    @foreach (var d in Model)
+    {
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" height="200" weight="200" src="/@d.Picture" alt="Card image cap"> @*use /@d.Picture id this doesnt work*@
+            <div class="card-body">
+                <h5 class="card-title">@d.Pname</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Category : @d.Pcat</li>
+                <li class="list-group-item">Price : @d.Price Rs</li>
+            </ul>
+            <div class="card-body">
+                <a asp-controller="Dashboard" asp-action="Payment" asp-route-id="@d.pid" class="btn btn-info">Place Order</a>
+            </div>
+        </div>
+    }
+</div>

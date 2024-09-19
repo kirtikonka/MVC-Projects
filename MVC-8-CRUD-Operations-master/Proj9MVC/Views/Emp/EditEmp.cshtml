@@ -1,0 +1,16 @@
+﻿@model Emp
+
+
+<form method="get">
+    Name <input type="text" asp-for="name" class="form-control" /><br />
+    Dept <select class="form-control" asp-for="dept">
+        <option>IT</option>
+        <option>HR</option>
+        <option>Sales</option>
+    </select>
+    <br />
+    Salary <input type="text" asp-for="name" class="form-control" /><br />
+
+    <input type="submit" value="Save" class="btn btn-primary" />
+
+</form>

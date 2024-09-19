@@ -1,0 +1,28 @@
+﻿@model List<Emp>
+
+<partial name="Notification"></partial>
+
+<a asp-controller="Emp" asp-action="AddEmp"><input type="submit" value="Add Item"/></a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Salary</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var d in Model)
+        {
+            <tr>
+                <th scope="row"> @d.Id</th>
+                <td>@d.Name </td>
+                <td>@d.Salary</td>
+                <td><a asp-controller="Emp" asp-action="DeleteEmp" asp-route-id="@d.Id"><input type="button" class="btn btn-danger" value="Delete" /></a></td>
+                <td><a asp-controller="Emp" asp-action="UpdateEmp" asp-route-id="@d.Id"><input type="button" class="btn btn-success" value="Edit" /></a></td>
+            </tr>
+        }
+    </tbody>
+</table>
